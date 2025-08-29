@@ -4,28 +4,68 @@
 int main() {
 //printf("Desafio de Cartas Super Trunfo");    
 
-int População;
-int ("Pontos Turisticos");
-float Área; 
-float Pib;
+//("Variaveis para a Primeira Carta");
+char codigo1[4];
+int Populacao1;
+int PontosTuristicos1;
+float Area1;
+float Pib1;
+
+//("Variaveis Para a Segunda Carta");
+char codigo2[4];
+int Populacao2;
+int PontosTuristicos2;
+float Area2;
+float Pib2;
+
+// Cadastro Da Carta 1;
+
+printf (" Cadastro Da carta 1 \n");
+printf ("Codigo Da Carta (ex: A01): ");
+scanf ("%3s", &codigo1);
+
+printf ("Populção: ");
+scanf ("%d", &Populacao1);
+
+printf("Área: ");
+scanf ("%f", &Area1);
+
+printf("PIb: ");
+scanf ("%f", &Pib1);
+
+printf ("Número De Pontos Turisticos: ");
+scanf ("%d",&PontosTuristicos1);
+
+//Cadastro Da Carta ;
+
+printf ("\n Cadastro Da Carta 2 \n");
+printf ("Codigo Da Carta (ex: B02): ");
+scanf ("%3s", &codigo2);
+
+printf ("População: ");
+scanf ("%d", &Populacao2);
+
+printf("Área: ");
+scanf ("%f", &Area2);
+
+printf ("PIB: ");
+scanf ("%f", &Pib2);
+
+printf ("Número De Pontos Turisticos: ");
+scanf ("%d", &PontosTuristicos2);
 
 
-printf("Pontos Turisticos:\n");
-scanf("%d", Ponto Turisticos);
+printf("\nCarta 1 - %s\n", codigo1);
+printf("População: %d\n", Populacao1);
+printf("Área: %f\n", Area1);
+printf("PIB: %f\n:", Pib1);
+printf("Numero De Pontos Turistico: %d\n", PontosTuristicos1);
 
-printf("População:\n");
-scanf("%d"  População);
-
-printf("Área:\n");
-scanf("%f"  Área);
-
-printf("PIB\n");
-scanf("%f"  Pib);
-
-printf("Total da Populção é: %d\n", População);
-printf("Numero De Pontos Turisticos: %d\n", Pontos Turisticos);
-printf("A Área é: %f\n", Área);
-printf("O PIb é:%f\n",Pib);
+printf("\nCarta 2 - %s\n", codigo2);
+printf("População: %d\n", PontosTuristicos2);
+printf("Área: %f\n", Area2);
+printf("PIB: %f\n", Pib2);
+printf("Numero De Pontos Turisticos: %d\n", PontosTuristicos2);
 
 return 0;
 }
